@@ -8,6 +8,8 @@ import 'tests/helpers/localstorage.jsx';
 import AnnouncementBar from 'components/announcement_bar/default_announcement_bar/announcement_bar.jsx';
 
 describe('components/AnnouncementBar', () => {
+    console.log('hello')
+
     const baseProps = {
         isLoggedIn: true,
         canViewSystemErrors: false,
